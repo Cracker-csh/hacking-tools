@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Hacking Tools Banner" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cracker-csh/hacking-tools/main/assets/banner.png" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cracker-csh/hacking-tools/main/assets/banner.png" />
+    <img src="https://raw.githubusercontent.com/Cracker-csh/hacking-tools/main/assets/banner.png" alt="Hacking Tools Banner" width="100%" />
+  </picture>
 </p>
 
 <h1 align="center">🛡️ Hacking Tools</h1>
