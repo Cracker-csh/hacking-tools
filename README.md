@@ -63,14 +63,14 @@
 
 This repository is **not** just a list of links. Every tool documented here includes:
 
-| What You Get | Description |
-|:---|:---|
-| 🧰 **Installation Guides** | Step-by-step setup for every major OS |
-| 📖 **Usage Walkthroughs** | Real-world commands with explanations |
-| 🎯 **Bug Bounty Use Cases** | Practical offensive scenarios |
-| 🛡️ **Detection & Defense** | How blue teams spot and counter the tool |
-| 🤖 **AI Learning Notes** | Key takeaways distilled for rapid learning |
-| 🔄 **Alternatives** | Similar tools for cross-referencing |
+| What You Get                | Description                                |
+| :-------------------------- | :----------------------------------------- |
+| 🧰 **Installation Guides**  | Step-by-step setup for every major OS      |
+| 📖 **Usage Walkthroughs**   | Real-world commands with explanations      |
+| 🎯 **Bug Bounty Use Cases** | Practical offensive scenarios              |
+| 🛡️ **Detection & Defense**  | How blue teams spot and counter the tool   |
+| 🤖 **AI Learning Notes**    | Key takeaways distilled for rapid learning |
+| 🔄 **Alternatives**         | Similar tools for cross-referencing        |
 
 Whether you're preparing for **OSCP**, hunting on **HackerOne**, or building a **SOC** — this repo has you covered.
 
@@ -80,32 +80,32 @@ Whether you're preparing for **OSCP**, hunting on **HackerOne**, or building a *
 
 ### 🔍 Information Gathering
 
-> *Reconnaissance is the foundation of every engagement. Know your target before you strike.*
+> _Reconnaissance is the foundation of every engagement. Know your target before you strike._
 
 Tools for footprinting, enumeration, DNS analysis, subdomain discovery, and technology fingerprinting.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Nmap](tools/information-gathering/nmap.md) | Network discovery & security auditing | 📄 |
-| [Amass](tools/information-gathering/amass.md) | Attack surface mapping & asset discovery | 📄 |
-| [Subfinder](tools/information-gathering/subfinder.md) | Fast passive subdomain enumeration | 📄 |
-| [Shodan](tools/information-gathering/shodan.md) | Internet-connected device search engine | 📄 |
-| [Recon-ng](tools/information-gathering/recon-ng.md) | Full-featured web reconnaissance framework | 📄 |
-| [theHarvester](tools/information-gathering/theharvester.md) | E-mails, subdomains, hosts, & names harvester | 📄 |
-| [Masscan](tools/information-gathering/masscan.md) | Internet-scale port scanner | 📄 |
-| [Censys](tools/information-gathering/censys.md) | Search engine for internet-connected devices | 📄 |
-| [WhatWeb](tools/information-gathering/whatweb.md) | Next-gen web scanner & fingerprinter | 📄 |
-| [DNSRecon](tools/information-gathering/dnsrecon.md) | DNS enumeration & reconnaissance | 📄 |
+| Tool                                                        | Description                                   | Docs |
+| :---------------------------------------------------------- | :-------------------------------------------- | :--: |
+| [Nmap](https://github.com/nmap/nmap)                        | Network discovery & security auditing         |  📄  |
+| [Amass](tools/information-gathering/amass.md)               | Attack surface mapping & asset discovery      |  📄  |
+| [Subfinder](tools/information-gathering/subfinder.md)       | Fast passive subdomain enumeration            |  📄  |
+| [Shodan](tools/information-gathering/shodan.md)             | Internet-connected device search engine       |  📄  |
+| [Recon-ng](tools/information-gathering/recon-ng.md)         | Full-featured web reconnaissance framework    |  📄  |
+| [theHarvester](tools/information-gathering/theharvester.md) | E-mails, subdomains, hosts, & names harvester |  📄  |
+| [Masscan](tools/information-gathering/masscan.md)           | Internet-scale port scanner                   |  📄  |
+| [Censys](tools/information-gathering/censys.md)             | Search engine for internet-connected devices  |  📄  |
+| [WhatWeb](tools/information-gathering/whatweb.md)           | Next-gen web scanner & fingerprinter          |  📄  |
+| [DNSRecon](tools/information-gathering/dnsrecon.md)         | DNS enumeration & reconnaissance              |  📄  |
 
 <details>
 <summary>📌 <b>More Information Gathering Tools</b></summary>
 <br>
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Fierce](tools/information-gathering/fierce.md) | DNS reconnaissance tool for locating non-contiguous IP space | 📄 |
-| [Dmitry](tools/information-gathering/dmitry.md) | Deepmagic information gathering tool | 📄 |
-| [Maltego](tools/information-gathering/maltego.md) | Interactive data mining & link analysis | 📄 |
+| Tool                                              | Description                                                  | Docs |
+| :------------------------------------------------ | :----------------------------------------------------------- | :--: |
+| [Fierce](tools/information-gathering/fierce.md)   | DNS reconnaissance tool for locating non-contiguous IP space |  📄  |
+| [Dmitry](tools/information-gathering/dmitry.md)   | Deepmagic information gathering tool                         |  📄  |
+| [Maltego](tools/information-gathering/maltego.md) | Interactive data mining & link analysis                      |  📄  |
 
 </details>
 
@@ -113,32 +113,32 @@ Tools for footprinting, enumeration, DNS analysis, subdomain discovery, and tech
 
 ### 🌐 Web Security
 
-> *The web is the largest attack surface. Master it.*
+> _The web is the largest attack surface. Master it._
 
 Tools for web application testing, vulnerability scanning, SQL injection, XSS, directory fuzzing, and more.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Burp Suite](tools/web-security/burpsuite.md) | Integrated platform for web security testing | 📄 |
-| [OWASP ZAP](tools/web-security/zap.md) | Open-source web app security scanner | 📄 |
-| [SQLMap](tools/web-security/sqlmap.md) | Automatic SQL injection & database takeover | 📄 |
-| [Nikto](tools/web-security/nikto.md) | Web server vulnerability scanner | 📄 |
-| [Gobuster](tools/web-security/gobuster.md) | Directory/file & DNS busting tool | 📄 |
-| [Ffuf](tools/web-security/ffuf.md) | Fast web fuzzer written in Go | 📄 |
-| [Wfuzz](tools/web-security/wfuzz.md) | Web application brute-force & fuzzer | 📄 |
-| [XSStrike](tools/web-security/xsstrike.md) | Advanced XSS detection suite | 📄 |
-| [Nuclei](tools/web-security/nuclei.md) | Fast vulnerability scanner with templates | 📄 |
-| [Dirsearch](tools/web-security/dirsearch.md) | Web path discovery tool | 📄 |
+| Tool                                          | Description                                  | Docs |
+| :-------------------------------------------- | :------------------------------------------- | :--: |
+| [Burp Suite](tools/web-security/burpsuite.md) | Integrated platform for web security testing |  📄  |
+| [OWASP ZAP](tools/web-security/zap.md)        | Open-source web app security scanner         |  📄  |
+| [SQLMap](tools/web-security/sqlmap.md)        | Automatic SQL injection & database takeover  |  📄  |
+| [Nikto](tools/web-security/nikto.md)          | Web server vulnerability scanner             |  📄  |
+| [Gobuster](tools/web-security/gobuster.md)    | Directory/file & DNS busting tool            |  📄  |
+| [Ffuf](tools/web-security/ffuf.md)            | Fast web fuzzer written in Go                |  📄  |
+| [Wfuzz](tools/web-security/wfuzz.md)          | Web application brute-force & fuzzer         |  📄  |
+| [XSStrike](tools/web-security/xsstrike.md)    | Advanced XSS detection suite                 |  📄  |
+| [Nuclei](tools/web-security/nuclei.md)        | Fast vulnerability scanner with templates    |  📄  |
+| [Dirsearch](tools/web-security/dirsearch.md)  | Web path discovery tool                      |  📄  |
 
 <details>
 <summary>📌 <b>More Web Security Tools</b></summary>
 <br>
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Commix](tools/web-security/commix.md) | Automated OS command injection exploitation | 📄 |
-| [WPScan](tools/web-security/wpscan.md) | WordPress security scanner | 📄 |
-| [Arjun](tools/web-security/arjun.md) | HTTP parameter discovery suite | 📄 |
+| Tool                                   | Description                                 | Docs |
+| :------------------------------------- | :------------------------------------------ | :--: |
+| [Commix](tools/web-security/commix.md) | Automated OS command injection exploitation |  📄  |
+| [WPScan](tools/web-security/wpscan.md) | WordPress security scanner                  |  📄  |
+| [Arjun](tools/web-security/arjun.md)   | HTTP parameter discovery suite              |  📄  |
 
 </details>
 
@@ -146,146 +146,146 @@ Tools for web application testing, vulnerability scanning, SQL injection, XSS, d
 
 ### 🕵️ OSINT
 
-> *Open-source intelligence — the art of finding what's publicly available but hidden in plain sight.*
+> _Open-source intelligence — the art of finding what's publicly available but hidden in plain sight._
 
 Tools for social media investigation, geolocation, email tracing, image forensics, and metadata analysis.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Maltego](tools/osint/maltego.md) | Visual link analysis & data mining | 📄 |
-| [SpiderFoot](tools/osint/spiderfoot.md) | Automated OSINT collection | 📄 |
-| [Sherlock](tools/osint/sherlock.md) | Username search across social networks | 📄 |
-| [Photon](tools/osint/photon.md) | Fast web crawler designed for OSINT | 📄 |
-| [ExifTool](tools/osint/exiftool.md) | Read & write metadata in files | 📄 |
-| [Metagoofil](tools/osint/metagoofil.md) | Metadata extractor from public documents | 📄 |
-| [Twint](tools/osint/twint.md) | Advanced Twitter scraping & OSINT | 📄 |
-| [Holehe](tools/osint/holehe.md) | Check if an email is registered on sites | 📄 |
-| [GHunt](tools/osint/ghunt.md) | Google account investigation tool | 📄 |
-| [Recon-ng](tools/osint/recon-ng.md) | Web reconnaissance framework | 📄 |
+| Tool                                    | Description                              | Docs |
+| :-------------------------------------- | :--------------------------------------- | :--: |
+| [Maltego](tools/osint/maltego.md)       | Visual link analysis & data mining       |  📄  |
+| [SpiderFoot](tools/osint/spiderfoot.md) | Automated OSINT collection               |  📄  |
+| [Sherlock](tools/osint/sherlock.md)     | Username search across social networks   |  📄  |
+| [Photon](tools/osint/photon.md)         | Fast web crawler designed for OSINT      |  📄  |
+| [ExifTool](tools/osint/exiftool.md)     | Read & write metadata in files           |  📄  |
+| [Metagoofil](tools/osint/metagoofil.md) | Metadata extractor from public documents |  📄  |
+| [Twint](tools/osint/twint.md)           | Advanced Twitter scraping & OSINT        |  📄  |
+| [Holehe](tools/osint/holehe.md)         | Check if an email is registered on sites |  📄  |
+| [GHunt](tools/osint/ghunt.md)           | Google account investigation tool        |  📄  |
+| [Recon-ng](tools/osint/recon-ng.md)     | Web reconnaissance framework             |  📄  |
 
 ---
 
 ### 🌐 Network Security
 
-> *Control the network, control everything.*
+> _Control the network, control everything._
 
 Tools for packet analysis, MITM attacks, wireless hacking, traffic manipulation, and protocol exploitation.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Wireshark](tools/network-security/wireshark.md) | Network protocol analyzer | 📄 |
-| [Metasploit](tools/network-security/metasploit.md) | Penetration testing framework | 📄 |
-| [Aircrack-ng](tools/network-security/aircrack-ng.md) | Wireless network security toolset | 📄 |
-| [Ettercap](tools/network-security/ettercap.md) | Comprehensive MITM attack suite | 📄 |
-| [Responder](tools/network-security/responder.md) | LLMNR, NBT-NS & MDNS poisoner | 📄 |
-| [Bettercap](tools/network-security/bettercap.md) | Swiss army knife for network attacks | 📄 |
-| [Hping3](tools/network-security/hping3.md) | Network tool for packet crafting | 📄 |
-| [Netcat](tools/network-security/netcat.md) | TCP/UDP networking swiss army knife | 📄 |
-| [Tcpdump](tools/network-security/tcpdump.md) | Command-line packet analyzer | 📄 |
-| [Scapy](tools/network-security/scapy.md) | Packet manipulation library & tool | 📄 |
+| Tool                                                 | Description                          | Docs |
+| :--------------------------------------------------- | :----------------------------------- | :--: |
+| [Wireshark](tools/network-security/wireshark.md)     | Network protocol analyzer            |  📄  |
+| [Metasploit](tools/network-security/metasploit.md)   | Penetration testing framework        |  📄  |
+| [Aircrack-ng](tools/network-security/aircrack-ng.md) | Wireless network security toolset    |  📄  |
+| [Ettercap](tools/network-security/ettercap.md)       | Comprehensive MITM attack suite      |  📄  |
+| [Responder](tools/network-security/responder.md)     | LLMNR, NBT-NS & MDNS poisoner        |  📄  |
+| [Bettercap](tools/network-security/bettercap.md)     | Swiss army knife for network attacks |  📄  |
+| [Hping3](tools/network-security/hping3.md)           | Network tool for packet crafting     |  📄  |
+| [Netcat](tools/network-security/netcat.md)           | TCP/UDP networking swiss army knife  |  📄  |
+| [Tcpdump](tools/network-security/tcpdump.md)         | Command-line packet analyzer         |  📄  |
+| [Scapy](tools/network-security/scapy.md)             | Packet manipulation library & tool   |  📄  |
 
 ---
 
 ### 🔬 Digital Forensics
 
-> *Every action leaves a trace. Learn to find it.*
+> _Every action leaves a trace. Learn to find it._
 
 Tools for disk imaging, memory analysis, timeline reconstruction, file recovery, and evidence acquisition.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Autopsy](tools/digital-forensics/autopsy.md) | Digital forensics platform | 📄 |
-| [Volatility](tools/digital-forensics/volatility.md) | Advanced memory forensics framework | 📄 |
-| [Sleuth Kit](tools/digital-forensics/sleuthkit.md) | File system & volume forensic analysis | 📄 |
-| [FTK Imager](tools/digital-forensics/ftk-imager.md) | Forensic data imaging tool | 📄 |
-| [Binwalk](tools/digital-forensics/binwalk.md) | Firmware analysis & extraction | 📄 |
-| [Foremost](tools/digital-forensics/foremost.md) | File carving & recovery tool | 📄 |
-| [Bulk Extractor](tools/digital-forensics/bulk-extractor.md) | High-performance digital forensics tool | 📄 |
-| [YARA](tools/digital-forensics/yara.md) | Pattern matching for malware research | 📄 |
-| [Plaso](tools/digital-forensics/plaso.md) | Super timeline creation engine | 📄 |
-| [Hashcat](tools/digital-forensics/hashcat.md) | Advanced password recovery | 📄 |
+| Tool                                                        | Description                             | Docs |
+| :---------------------------------------------------------- | :-------------------------------------- | :--: |
+| [Autopsy](tools/digital-forensics/autopsy.md)               | Digital forensics platform              |  📄  |
+| [Volatility](tools/digital-forensics/volatility.md)         | Advanced memory forensics framework     |  📄  |
+| [Sleuth Kit](tools/digital-forensics/sleuthkit.md)          | File system & volume forensic analysis  |  📄  |
+| [FTK Imager](tools/digital-forensics/ftk-imager.md)         | Forensic data imaging tool              |  📄  |
+| [Binwalk](tools/digital-forensics/binwalk.md)               | Firmware analysis & extraction          |  📄  |
+| [Foremost](tools/digital-forensics/foremost.md)             | File carving & recovery tool            |  📄  |
+| [Bulk Extractor](tools/digital-forensics/bulk-extractor.md) | High-performance digital forensics tool |  📄  |
+| [YARA](tools/digital-forensics/yara.md)                     | Pattern matching for malware research   |  📄  |
+| [Plaso](tools/digital-forensics/plaso.md)                   | Super timeline creation engine          |  📄  |
+| [Hashcat](tools/digital-forensics/hashcat.md)               | Advanced password recovery              |  📄  |
 
 ---
 
 ### ⚙️ Reverse Engineering
 
-> *Understand the machine. Tear it apart. Rebuild it.*
+> _Understand the machine. Tear it apart. Rebuild it._
 
 Tools for binary analysis, disassembly, decompilation, debugging, and exploit development.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Ghidra](tools/reverse-engineering/ghidra.md) | NSA's software reverse engineering suite | 📄 |
-| [IDA Pro](tools/reverse-engineering/ida-pro.md) | Interactive disassembler & debugger | 📄 |
-| [Radare2](tools/reverse-engineering/radare2.md) | UNIX-like reverse engineering framework | 📄 |
-| [GDB](tools/reverse-engineering/gdb.md) | GNU project debugger | 📄 |
-| [x64dbg](tools/reverse-engineering/x64dbg.md) | Open-source x64/x32 debugger for Windows | 📄 |
-| [OllyDbg](tools/reverse-engineering/ollydbg.md) | 32-bit assembler-level debugger | 📄 |
-| [Binary Ninja](tools/reverse-engineering/binary-ninja.md) | Reverse engineering platform | 📄 |
-| [Frida](tools/reverse-engineering/frida.md) | Dynamic instrumentation toolkit | 📄 |
-| [Angr](tools/reverse-engineering/angr.md) | Binary analysis platform (symbolic execution) | 📄 |
-| [Capstone](tools/reverse-engineering/capstone.md) | Lightweight multi-arch disassembly framework | 📄 |
+| Tool                                                      | Description                                   | Docs |
+| :-------------------------------------------------------- | :-------------------------------------------- | :--: |
+| [Ghidra](tools/reverse-engineering/ghidra.md)             | NSA's software reverse engineering suite      |  📄  |
+| [IDA Pro](tools/reverse-engineering/ida-pro.md)           | Interactive disassembler & debugger           |  📄  |
+| [Radare2](tools/reverse-engineering/radare2.md)           | UNIX-like reverse engineering framework       |  📄  |
+| [GDB](tools/reverse-engineering/gdb.md)                   | GNU project debugger                          |  📄  |
+| [x64dbg](tools/reverse-engineering/x64dbg.md)             | Open-source x64/x32 debugger for Windows      |  📄  |
+| [OllyDbg](tools/reverse-engineering/ollydbg.md)           | 32-bit assembler-level debugger               |  📄  |
+| [Binary Ninja](tools/reverse-engineering/binary-ninja.md) | Reverse engineering platform                  |  📄  |
+| [Frida](tools/reverse-engineering/frida.md)               | Dynamic instrumentation toolkit               |  📄  |
+| [Angr](tools/reverse-engineering/angr.md)                 | Binary analysis platform (symbolic execution) |  📄  |
+| [Capstone](tools/reverse-engineering/capstone.md)         | Lightweight multi-arch disassembly framework  |  📄  |
 
 ---
 
 ### ☁️ Cloud Security
 
-> *The cloud is someone else's computer — and it needs to be secured.*
+> _The cloud is someone else's computer — and it needs to be secured._
 
 Tools for AWS/Azure/GCP security auditing, misconfiguration detection, container security, and IAM analysis.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [ScoutSuite](tools/cloud-security/scoutsuite.md) | Multi-cloud security auditing tool | 📄 |
-| [Prowler](tools/cloud-security/prowler.md) | AWS & Azure security assessment | 📄 |
-| [Pacu](tools/cloud-security/pacu.md) | AWS exploitation framework | 📄 |
-| [CloudSploit](tools/cloud-security/cloudsploit.md) | Cloud security configuration monitoring | 📄 |
-| [Trivy](tools/cloud-security/trivy.md) | Comprehensive security scanner for containers | 📄 |
-| [kube-hunter](tools/cloud-security/kube-hunter.md) | Kubernetes penetration testing tool | 📄 |
-| [Checkov](tools/cloud-security/checkov.md) | Static analysis for IaC security | 📄 |
-| [CloudMapper](tools/cloud-security/cloudmapper.md) | AWS environment visualization & auditing | 📄 |
-| [Falco](tools/cloud-security/falco.md) | Cloud-native runtime security | 📄 |
-| [Steampipe](tools/cloud-security/steampipe.md) | Universal cloud API query interface | 📄 |
+| Tool                                               | Description                                   | Docs |
+| :------------------------------------------------- | :-------------------------------------------- | :--: |
+| [ScoutSuite](tools/cloud-security/scoutsuite.md)   | Multi-cloud security auditing tool            |  📄  |
+| [Prowler](tools/cloud-security/prowler.md)         | AWS & Azure security assessment               |  📄  |
+| [Pacu](tools/cloud-security/pacu.md)               | AWS exploitation framework                    |  📄  |
+| [CloudSploit](tools/cloud-security/cloudsploit.md) | Cloud security configuration monitoring       |  📄  |
+| [Trivy](tools/cloud-security/trivy.md)             | Comprehensive security scanner for containers |  📄  |
+| [kube-hunter](tools/cloud-security/kube-hunter.md) | Kubernetes penetration testing tool           |  📄  |
+| [Checkov](tools/cloud-security/checkov.md)         | Static analysis for IaC security              |  📄  |
+| [CloudMapper](tools/cloud-security/cloudmapper.md) | AWS environment visualization & auditing      |  📄  |
+| [Falco](tools/cloud-security/falco.md)             | Cloud-native runtime security                 |  📄  |
+| [Steampipe](tools/cloud-security/steampipe.md)     | Universal cloud API query interface           |  📄  |
 
 ---
 
 ### 🦠 Malware Analysis
 
-> *Know your enemy. Dissect the threat.*
+> _Know your enemy. Dissect the threat._
 
 Tools for static analysis, dynamic analysis, sandboxing, unpacking, and threat intelligence.
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [Cuckoo Sandbox](tools/malware-analysis/cuckoo.md) | Automated malware analysis system | 📄 |
-| [YARA](tools/malware-analysis/yara.md) | Pattern matching for malware researchers | 📄 |
-| [PE-bear](tools/malware-analysis/pe-bear.md) | Portable Executable reversing tool | 📄 |
-| [Detect It Easy](tools/malware-analysis/die.md) | Packer/compiler/linker detection | 📄 |
-| [FLOSS](tools/malware-analysis/floss.md) | FireEye Labs obfuscated string solver | 📄 |
-| [Remnux](tools/malware-analysis/remnux.md) | Linux toolkit for reverse-engineering malware | 📄 |
-| [Process Monitor](tools/malware-analysis/procmon.md) | Advanced Windows system monitoring | 📄 |
-| [Pestudio](tools/malware-analysis/pestudio.md) | Static malware initial assessment | 📄 |
-| [Any.Run](tools/malware-analysis/anyrun.md) | Interactive online malware sandbox | 📄 |
-| [Strings](tools/malware-analysis/strings.md) | Extract printable strings from binaries | 📄 |
+| Tool                                                 | Description                                   | Docs |
+| :--------------------------------------------------- | :-------------------------------------------- | :--: |
+| [Cuckoo Sandbox](tools/malware-analysis/cuckoo.md)   | Automated malware analysis system             |  📄  |
+| [YARA](tools/malware-analysis/yara.md)               | Pattern matching for malware researchers      |  📄  |
+| [PE-bear](tools/malware-analysis/pe-bear.md)         | Portable Executable reversing tool            |  📄  |
+| [Detect It Easy](tools/malware-analysis/die.md)      | Packer/compiler/linker detection              |  📄  |
+| [FLOSS](tools/malware-analysis/floss.md)             | FireEye Labs obfuscated string solver         |  📄  |
+| [Remnux](tools/malware-analysis/remnux.md)           | Linux toolkit for reverse-engineering malware |  📄  |
+| [Process Monitor](tools/malware-analysis/procmon.md) | Advanced Windows system monitoring            |  📄  |
+| [Pestudio](tools/malware-analysis/pestudio.md)       | Static malware initial assessment             |  📄  |
+| [Any.Run](tools/malware-analysis/anyrun.md)          | Interactive online malware sandbox            |  📄  |
+| [Strings](tools/malware-analysis/strings.md)         | Extract printable strings from binaries       |  📄  |
 
 ---
 
 ### 🧩 Miscellaneous
 
-> *Essential utilities that don't fit one category but are indispensable in every toolkit.*
+> _Essential utilities that don't fit one category but are indispensable in every toolkit._
 
-| Tool | Description | Docs |
-|:-----|:-----------|:----:|
-| [CyberChef](tools/miscellaneous/cyberchef.md) | The cyber swiss army knife (data ops) | 📄 |
-| [John the Ripper](tools/miscellaneous/john.md) | Password cracker | 📄 |
-| [Hydra](tools/miscellaneous/hydra.md) | Network logon brute-force tool | 📄 |
-| [Hashcat](tools/miscellaneous/hashcat.md) | Advanced GPU-based password recovery | 📄 |
-| [Impacket](tools/miscellaneous/impacket.md) | Collection of Python classes for network protocols | 📄 |
-| [SecLists](tools/miscellaneous/seclists.md) | Security tester's companion wordlists | 📄 |
-| [PayloadsAllTheThings](tools/miscellaneous/payloadsallthethings.md) | Useful payloads & bypass techniques | 📄 |
-| [Proxychains](tools/miscellaneous/proxychains.md) | Redirect connections through proxy servers | 📄 |
-| [Tor](tools/miscellaneous/tor.md) | Anonymous communication network | 📄 |
-| [SearchSploit](tools/miscellaneous/searchsploit.md) | CLI search for Exploit-DB | 📄 |
+| Tool                                                                | Description                                        | Docs |
+| :------------------------------------------------------------------ | :------------------------------------------------- | :--: |
+| [CyberChef](tools/miscellaneous/cyberchef.md)                       | The cyber swiss army knife (data ops)              |  📄  |
+| [John the Ripper](tools/miscellaneous/john.md)                      | Password cracker                                   |  📄  |
+| [Hydra](tools/miscellaneous/hydra.md)                               | Network logon brute-force tool                     |  📄  |
+| [Hashcat](tools/miscellaneous/hashcat.md)                           | Advanced GPU-based password recovery               |  📄  |
+| [Impacket](tools/miscellaneous/impacket.md)                         | Collection of Python classes for network protocols |  📄  |
+| [SecLists](tools/miscellaneous/seclists.md)                         | Security tester's companion wordlists              |  📄  |
+| [PayloadsAllTheThings](tools/miscellaneous/payloadsallthethings.md) | Useful payloads & bypass techniques                |  📄  |
+| [Proxychains](tools/miscellaneous/proxychains.md)                   | Redirect connections through proxy servers         |  📄  |
+| [Tor](tools/miscellaneous/tor.md)                                   | Anonymous communication network                    |  📄  |
+| [SearchSploit](tools/miscellaneous/searchsploit.md)                 | CLI search for Exploit-DB                          |  📄  |
 
 ---
 
@@ -426,12 +426,12 @@ Tools for static analysis, dynamic analysis, sandboxing, unpacking, and threat i
 
 ### 🎯 Certification Alignment
 
-| Phase | Recommended Certifications |
-|:------|:--------------------------|
-| Phase 1–2 | CompTIA Security+, CEH |
-| Phase 3 | eWPT, BSCP (Burp Suite Certified Practitioner) |
-| Phase 4 | OSCP, CRTP |
-| Phase 5 | GREM, GCFA, CCSP, OSED |
+| Phase     | Recommended Certifications                     |
+| :-------- | :--------------------------------------------- |
+| Phase 1–2 | CompTIA Security+, CEH                         |
+| Phase 3   | eWPT, BSCP (Burp Suite Certified Practitioner) |
+| Phase 4   | OSCP, CRTP                                     |
+| Phase 5   | GREM, GCFA, CCSP, OSED                         |
 
 ---
 
@@ -444,15 +444,15 @@ Tools for static analysis, dynamic analysis, sandboxing, unpacking, and threat i
   Format: | Date | Tool | Category | Status |
 -->
 
-| Date | Tool | Category | Status |
-|:-----|:-----|:---------|:------:|
-| 2026-06-03 | Nmap | Information Gathering | ✅ |
-| 2026-06-04 | Burp Suite | Web Security | 🔜 |
-| 2026-06-05 | SQLMap | Web Security | 🔜 |
-| 2026-06-06 | Sherlock | OSINT | 🔜 |
-| 2026-06-07 | Wireshark | Network Security | 🔜 |
-| 2026-06-08 | Metasploit | Network Security | 🔜 |
-| 2026-06-09 | Ghidra | Reverse Engineering | 🔜 |
+| Date       | Tool       | Category              | Status |
+| :--------- | :--------- | :-------------------- | :----: |
+| 2026-06-03 | Nmap       | Information Gathering |   ✅   |
+| 2026-06-04 | Burp Suite | Web Security          |   🔜   |
+| 2026-06-05 | SQLMap     | Web Security          |   🔜   |
+| 2026-06-06 | Sherlock   | OSINT                 |   🔜   |
+| 2026-06-07 | Wireshark  | Network Security      |   🔜   |
+| 2026-06-08 | Metasploit | Network Security      |   🔜   |
+| 2026-06-09 | Ghidra     | Reverse Engineering   |   🔜   |
 
 <p align="center">
   <i>✅ Complete &nbsp;│&nbsp; 🔜 Upcoming &nbsp;│&nbsp; 📝 In Progress</i>
@@ -482,13 +482,13 @@ Contributions are what make the open-source community an incredible place to lea
 
 ### Contribution Guidelines
 
-| Rule | Description |
-|:-----|:-----------|
-| 📝 **Use the template** | Every tool page must follow [tool-template.md](templates/tool-template.md) |
-| ✅ **Legal tools only** | Document tools for authorized security testing only |
-| 🎯 **Quality over quantity** | Thorough documentation beats placeholder pages |
-| 🔍 **Verify commands** | Test every command before documenting it |
-| 📚 **Cite sources** | Link to official docs and references |
+| Rule                         | Description                                                                |
+| :--------------------------- | :------------------------------------------------------------------------- |
+| 📝 **Use the template**      | Every tool page must follow [tool-template.md](templates/tool-template.md) |
+| ✅ **Legal tools only**      | Document tools for authorized security testing only                        |
+| 🎯 **Quality over quantity** | Thorough documentation beats placeholder pages                             |
+| 🔍 **Verify commands**       | Test every command before documenting it                                   |
+| 📚 **Cite sources**          | Link to official docs and references                                       |
 
 > **⚠️ Disclaimer:** This repository is for **educational and authorized security testing purposes only.** Unauthorized access to computer systems is illegal. Always obtain proper authorization before testing.
 
