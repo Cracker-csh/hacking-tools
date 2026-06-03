@@ -1,9 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cracker-csh/hacking-tools/main/assets/banner.png" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cracker-csh/hacking-tools/main/assets/banner.png" />
-    <img src="https://raw.githubusercontent.com/Cracker-csh/hacking-tools/main/assets/banner.png" alt="Hacking Tools Banner" width="100%" />
-  </picture>
+  <img src="assets/banner.png" alt="Hacking Tools Banner" width="100%" />
 </p>
 
 <h1 align="center">🛡️ Hacking Tools</h1>
@@ -88,18 +84,18 @@ Whether you're preparing for **OSCP**, hunting on **HackerOne**, or building a *
 
 Tools for footprinting, enumeration, DNS analysis, subdomain discovery, and technology fingerprinting.
 
-| Tool                                                        | Description                                   | Docs |
-| :---------------------------------------------------------- | :-------------------------------------------- | :--: |
-| [Nmap](https://github.com/nmap/nmap)                        | Network discovery & security auditing         |  📄  |
-| [Amass](https://github.com/owasp-amass/amass)               | Attack surface mapping & asset discovery      |  📄  |
-| [Subfinder](https://github.com/projectdiscovery/subfinder)       | Fast passive subdomain enumeration            |  📄  |
-| [Shodan](https://github.com/achillean/shodan-python)             | Internet-connected device search engine       |  📄  |
-| [Recon-ng](https://github.com/lanmaster53/recon-ng)         | Full-featured web reconnaissance framework    |  📄  |
-| [theHarvester](https://github.com/laramies/theHarvester) | E-mails, subdomains, hosts, & names harvester |  📄  |
-| [Masscan](https://github.com/robertdavidgraham/masscan)           | Internet-scale port scanner                   |  📄  |
-| [Censys](https://github.com/censys/censys-python)             | Search engine for internet-connected devices  |  📄  |
-| [WhatWeb](https://github.com/urbanadventurer/WhatWeb)           | Next-gen web scanner & fingerprinter          |  📄  |
-| [DNSRecon](https://github.com/darkoperator/dnsrecon)         | DNS enumeration & reconnaissance              |  📄  |
+| Tool                                                       | Description                                   | Docs |
+| :--------------------------------------------------------- | :-------------------------------------------- | :--: |
+| [Nmap](https://github.com/nmap/nmap)                       | Network discovery & security auditing         |  📄  |
+| [Amass](https://github.com/owasp-amass/amass)              | Attack surface mapping & asset discovery      |  📄  |
+| [Subfinder](https://github.com/projectdiscovery/subfinder) | Fast passive subdomain enumeration            |  📄  |
+| [Shodan](https://github.com/achillean/shodan-python)       | Internet-connected device search engine       |  📄  |
+| [Recon-ng](https://github.com/lanmaster53/recon-ng)        | Full-featured web reconnaissance framework    |  📄  |
+| [theHarvester](https://github.com/laramies/theHarvester)   | E-mails, subdomains, hosts, & names harvester |  📄  |
+| [Masscan](https://github.com/robertdavidgraham/masscan)    | Internet-scale port scanner                   |  📄  |
+| [Censys](https://github.com/censys/censys-python)          | Search engine for internet-connected devices  |  📄  |
+| [WhatWeb](https://github.com/urbanadventurer/WhatWeb)      | Next-gen web scanner & fingerprinter          |  📄  |
+| [DNSRecon](https://github.com/darkoperator/dnsrecon)       | DNS enumeration & reconnaissance              |  📄  |
 
 <details>
 <summary>📌 <b>More Information Gathering Tools</b></summary>
@@ -107,8 +103,8 @@ Tools for footprinting, enumeration, DNS analysis, subdomain discovery, and tech
 
 | Tool                                              | Description                                                  | Docs |
 | :------------------------------------------------ | :----------------------------------------------------------- | :--: |
-| [Fierce](https://github.com/mschwager/fierce)   | DNS reconnaissance tool for locating non-contiguous IP space |  📄  |
-| [Dmitry](https://github.com/jaygreig86/dmitry)   | Deepmagic information gathering tool                         |  📄  |
+| [Fierce](https://github.com/mschwager/fierce)     | DNS reconnaissance tool for locating non-contiguous IP space |  📄  |
+| [Dmitry](https://github.com/jaygreig86/dmitry)    | Deepmagic information gathering tool                         |  📄  |
 | [Maltego](https://github.com/paterva/maltego-trx) | Interactive data mining & link analysis                      |  📄  |
 
 </details>
@@ -121,28 +117,28 @@ Tools for footprinting, enumeration, DNS analysis, subdomain discovery, and tech
 
 Tools for web application testing, vulnerability scanning, SQL injection, XSS, directory fuzzing, and more.
 
-| Tool                                          | Description                                  | Docs |
-| :-------------------------------------------- | :------------------------------------------- | :--: |
+| Tool                                                                     | Description                                  | Docs |
+| :----------------------------------------------------------------------- | :------------------------------------------- | :--: |
 | [Burp Suite](https://github.com/PortSwigger/burp-extensions-montoya-api) | Integrated platform for web security testing |  📄  |
-| [OWASP ZAP](https://github.com/zaproxy/zaproxy)        | Open-source web app security scanner         |  📄  |
-| [SQLMap](https://github.com/sqlmapproject/sqlmap)        | Automatic SQL injection & database takeover  |  📄  |
-| [Nikto](https://github.com/sullo/nikto)          | Web server vulnerability scanner             |  📄  |
-| [Gobuster](https://github.com/OJ/gobuster)    | Directory/file & DNS busting tool            |  📄  |
-| [Ffuf](https://github.com/ffuf/ffuf)            | Fast web fuzzer written in Go                |  📄  |
-| [Wfuzz](https://github.com/xmendez/wfuzz)          | Web application brute-force & fuzzer         |  📄  |
-| [XSStrike](https://github.com/s0md3v/XSStrike)    | Advanced XSS detection suite                 |  📄  |
-| [Nuclei](https://github.com/projectdiscovery/nuclei)        | Fast vulnerability scanner with templates    |  📄  |
-| [Dirsearch](https://github.com/maurosoria/dirsearch)  | Web path discovery tool                      |  📄  |
+| [OWASP ZAP](https://github.com/zaproxy/zaproxy)                          | Open-source web app security scanner         |  📄  |
+| [SQLMap](https://github.com/sqlmapproject/sqlmap)                        | Automatic SQL injection & database takeover  |  📄  |
+| [Nikto](https://github.com/sullo/nikto)                                  | Web server vulnerability scanner             |  📄  |
+| [Gobuster](https://github.com/OJ/gobuster)                               | Directory/file & DNS busting tool            |  📄  |
+| [Ffuf](https://github.com/ffuf/ffuf)                                     | Fast web fuzzer written in Go                |  📄  |
+| [Wfuzz](https://github.com/xmendez/wfuzz)                                | Web application brute-force & fuzzer         |  📄  |
+| [XSStrike](https://github.com/s0md3v/XSStrike)                           | Advanced XSS detection suite                 |  📄  |
+| [Nuclei](https://github.com/projectdiscovery/nuclei)                     | Fast vulnerability scanner with templates    |  📄  |
+| [Dirsearch](https://github.com/maurosoria/dirsearch)                     | Web path discovery tool                      |  📄  |
 
 <details>
 <summary>📌 <b>More Web Security Tools</b></summary>
 <br>
 
-| Tool                                   | Description                                 | Docs |
-| :------------------------------------- | :------------------------------------------ | :--: |
+| Tool                                              | Description                                 | Docs |
+| :------------------------------------------------ | :------------------------------------------ | :--: |
 | [Commix](https://github.com/commixproject/commix) | Automated OS command injection exploitation |  📄  |
-| [WPScan](https://github.com/wpscanteam/wpscan) | WordPress security scanner                  |  📄  |
-| [Arjun](https://github.com/s0md3v/Arjun)   | HTTP parameter discovery suite              |  📄  |
+| [WPScan](https://github.com/wpscanteam/wpscan)    | WordPress security scanner                  |  📄  |
+| [Arjun](https://github.com/s0md3v/Arjun)          | HTTP parameter discovery suite              |  📄  |
 
 </details>
 
@@ -154,18 +150,18 @@ Tools for web application testing, vulnerability scanning, SQL injection, XSS, d
 
 Tools for social media investigation, geolocation, email tracing, image forensics, and metadata analysis.
 
-| Tool                                    | Description                              | Docs |
-| :-------------------------------------- | :--------------------------------------- | :--: |
-| [Maltego](https://github.com/paterva/maltego-trx)       | Visual link analysis & data mining       |  📄  |
-| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Automated OSINT collection               |  📄  |
-| [Sherlock](https://github.com/sherlock-project/sherlock)     | Username search across social networks   |  📄  |
-| [Photon](https://github.com/s0md3v/Photon)         | Fast web crawler designed for OSINT      |  📄  |
-| [ExifTool](https://github.com/exiftool/exiftool)     | Read & write metadata in files           |  📄  |
-| [Metagoofil](https://github.com/opsdisk/metagoofil) | Metadata extractor from public documents |  📄  |
+| Tool                                                     | Description                              | Docs |
+| :------------------------------------------------------- | :--------------------------------------- | :--: |
+| [Maltego](https://github.com/paterva/maltego-trx)        | Visual link analysis & data mining       |  📄  |
+| [SpiderFoot](https://github.com/smicallef/spiderfoot)    | Automated OSINT collection               |  📄  |
+| [Sherlock](https://github.com/sherlock-project/sherlock) | Username search across social networks   |  📄  |
+| [Photon](https://github.com/s0md3v/Photon)               | Fast web crawler designed for OSINT      |  📄  |
+| [ExifTool](https://github.com/exiftool/exiftool)         | Read & write metadata in files           |  📄  |
+| [Metagoofil](https://github.com/opsdisk/metagoofil)      | Metadata extractor from public documents |  📄  |
 | [Twint](https://github.com/twintproject/twint)           | Advanced Twitter scraping & OSINT        |  📄  |
-| [Holehe](https://github.com/megadose/holehe)         | Check if an email is registered on sites |  📄  |
-| [GHunt](https://github.com/mxrch/GHunt)           | Google account investigation tool        |  📄  |
-| [Recon-ng](https://github.com/lanmaster53/recon-ng)     | Web reconnaissance framework             |  📄  |
+| [Holehe](https://github.com/megadose/holehe)             | Check if an email is registered on sites |  📄  |
+| [GHunt](https://github.com/mxrch/GHunt)                  | Google account investigation tool        |  📄  |
+| [Recon-ng](https://github.com/lanmaster53/recon-ng)      | Web reconnaissance framework             |  📄  |
 
 ---
 
@@ -175,18 +171,18 @@ Tools for social media investigation, geolocation, email tracing, image forensic
 
 Tools for packet analysis, MITM attacks, wireless hacking, traffic manipulation, and protocol exploitation.
 
-| Tool                                                 | Description                          | Docs |
-| :--------------------------------------------------- | :----------------------------------- | :--: |
-| [Wireshark](https://github.com/wireshark/wireshark)     | Network protocol analyzer            |  📄  |
-| [Metasploit](https://github.com/rapid7/metasploit-framework)   | Penetration testing framework        |  📄  |
-| [Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng) | Wireless network security toolset    |  📄  |
-| [Ettercap](https://github.com/Ettercap/ettercap)       | Comprehensive MITM attack suite      |  📄  |
-| [Responder](https://github.com/lgandx/Responder)     | LLMNR, NBT-NS & MDNS poisoner        |  📄  |
-| [Bettercap](https://github.com/bettercap/bettercap)     | Swiss army knife for network attacks |  📄  |
-| [Hping3](https://github.com/antirez/hping)           | Network tool for packet crafting     |  📄  |
-| [Netcat](https://github.com/diegocr/netcat)           | TCP/UDP networking swiss army knife  |  📄  |
-| [Tcpdump](https://github.com/the-tcpdump-group/tcpdump)         | Command-line packet analyzer         |  📄  |
-| [Scapy](https://github.com/secdev/scapy)             | Packet manipulation library & tool   |  📄  |
+| Tool                                                         | Description                          | Docs |
+| :----------------------------------------------------------- | :----------------------------------- | :--: |
+| [Wireshark](https://github.com/wireshark/wireshark)          | Network protocol analyzer            |  📄  |
+| [Metasploit](https://github.com/rapid7/metasploit-framework) | Penetration testing framework        |  📄  |
+| [Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng)    | Wireless network security toolset    |  📄  |
+| [Ettercap](https://github.com/Ettercap/ettercap)             | Comprehensive MITM attack suite      |  📄  |
+| [Responder](https://github.com/lgandx/Responder)             | LLMNR, NBT-NS & MDNS poisoner        |  📄  |
+| [Bettercap](https://github.com/bettercap/bettercap)          | Swiss army knife for network attacks |  📄  |
+| [Hping3](https://github.com/antirez/hping)                   | Network tool for packet crafting     |  📄  |
+| [Netcat](https://github.com/diegocr/netcat)                  | TCP/UDP networking swiss army knife  |  📄  |
+| [Tcpdump](https://github.com/the-tcpdump-group/tcpdump)      | Command-line packet analyzer         |  📄  |
+| [Scapy](https://github.com/secdev/scapy)                     | Packet manipulation library & tool   |  📄  |
 
 ---
 
@@ -196,18 +192,18 @@ Tools for packet analysis, MITM attacks, wireless hacking, traffic manipulation,
 
 Tools for disk imaging, memory analysis, timeline reconstruction, file recovery, and evidence acquisition.
 
-| Tool                                                        | Description                             | Docs |
-| :---------------------------------------------------------- | :-------------------------------------- | :--: |
-| [Autopsy](https://github.com/sleuthkit/autopsy)               | Digital forensics platform              |  📄  |
-| [Volatility](https://github.com/volatilityfoundation/volatility3)         | Advanced memory forensics framework     |  📄  |
-| [Sleuth Kit](https://github.com/sleuthkit/sleuthkit)          | File system & volume forensic analysis  |  📄  |
-| [FTK Imager](https://github.com/exterro/ftk-imager)         | Forensic data imaging tool              |  📄  |
-| [Binwalk](https://github.com/ReFirmLabs/binwalk)               | Firmware analysis & extraction          |  📄  |
-| [Foremost](https://github.com/korczis/foremost)             | File carving & recovery tool            |  📄  |
-| [Bulk Extractor](https://github.com/simsong/bulk_extractor) | High-performance digital forensics tool |  📄  |
-| [YARA](https://github.com/VirusTotal/yara)                     | Pattern matching for malware research   |  📄  |
-| [Plaso](https://github.com/log2timeline/plaso)                   | Super timeline creation engine          |  📄  |
-| [Hashcat](https://github.com/hashcat/hashcat)               | Advanced password recovery              |  📄  |
+| Tool                                                              | Description                             | Docs |
+| :---------------------------------------------------------------- | :-------------------------------------- | :--: |
+| [Autopsy](https://github.com/sleuthkit/autopsy)                   | Digital forensics platform              |  📄  |
+| [Volatility](https://github.com/volatilityfoundation/volatility3) | Advanced memory forensics framework     |  📄  |
+| [Sleuth Kit](https://github.com/sleuthkit/sleuthkit)              | File system & volume forensic analysis  |  📄  |
+| [FTK Imager](https://github.com/exterro/ftk-imager)               | Forensic data imaging tool              |  📄  |
+| [Binwalk](https://github.com/ReFirmLabs/binwalk)                  | Firmware analysis & extraction          |  📄  |
+| [Foremost](https://github.com/korczis/foremost)                   | File carving & recovery tool            |  📄  |
+| [Bulk Extractor](https://github.com/simsong/bulk_extractor)       | High-performance digital forensics tool |  📄  |
+| [YARA](https://github.com/VirusTotal/yara)                        | Pattern matching for malware research   |  📄  |
+| [Plaso](https://github.com/log2timeline/plaso)                    | Super timeline creation engine          |  📄  |
+| [Hashcat](https://github.com/hashcat/hashcat)                     | Advanced password recovery              |  📄  |
 
 ---
 
@@ -217,18 +213,18 @@ Tools for disk imaging, memory analysis, timeline reconstruction, file recovery,
 
 Tools for binary analysis, disassembly, decompilation, debugging, and exploit development.
 
-| Tool                                                      | Description                                   | Docs |
-| :-------------------------------------------------------- | :-------------------------------------------- | :--: |
-| [Ghidra](https://github.com/NationalSecurityAgency/ghidra)             | NSA's software reverse engineering suite      |  📄  |
-| [IDA Pro](https://github.com/idapython/src)           | Interactive disassembler & debugger           |  📄  |
-| [Radare2](https://github.com/radareorg/radare2)           | UNIX-like reverse engineering framework       |  📄  |
-| [GDB](https://github.com/bminor/binutils-gdb)                   | GNU project debugger                          |  📄  |
-| [x64dbg](https://github.com/x64dbg/x64dbg)             | Open-source x64/x32 debugger for Windows      |  📄  |
-| [OllyDbg](https://github.com/x64dbg/OllyDbg)           | 32-bit assembler-level debugger               |  📄  |
+| Tool                                                        | Description                                   | Docs |
+| :---------------------------------------------------------- | :-------------------------------------------- | :--: |
+| [Ghidra](https://github.com/NationalSecurityAgency/ghidra)  | NSA's software reverse engineering suite      |  📄  |
+| [IDA Pro](https://github.com/idapython/src)                 | Interactive disassembler & debugger           |  📄  |
+| [Radare2](https://github.com/radareorg/radare2)             | UNIX-like reverse engineering framework       |  📄  |
+| [GDB](https://github.com/bminor/binutils-gdb)               | GNU project debugger                          |  📄  |
+| [x64dbg](https://github.com/x64dbg/x64dbg)                  | Open-source x64/x32 debugger for Windows      |  📄  |
+| [OllyDbg](https://github.com/x64dbg/OllyDbg)                | 32-bit assembler-level debugger               |  📄  |
 | [Binary Ninja](https://github.com/Vector35/binaryninja-api) | Reverse engineering platform                  |  📄  |
-| [Frida](https://github.com/frida/frida)               | Dynamic instrumentation toolkit               |  📄  |
-| [Angr](https://github.com/angr/angr)                 | Binary analysis platform (symbolic execution) |  📄  |
-| [Capstone](https://github.com/capstone-engine/capstone)         | Lightweight multi-arch disassembly framework  |  📄  |
+| [Frida](https://github.com/frida/frida)                     | Dynamic instrumentation toolkit               |  📄  |
+| [Angr](https://github.com/angr/angr)                        | Binary analysis platform (symbolic execution) |  📄  |
+| [Capstone](https://github.com/capstone-engine/capstone)     | Lightweight multi-arch disassembly framework  |  📄  |
 
 ---
 
@@ -238,18 +234,18 @@ Tools for binary analysis, disassembly, decompilation, debugging, and exploit de
 
 Tools for AWS/Azure/GCP security auditing, misconfiguration detection, container security, and IAM analysis.
 
-| Tool                                               | Description                                   | Docs |
-| :------------------------------------------------- | :-------------------------------------------- | :--: |
-| [ScoutSuite](https://github.com/nccgroup/ScoutSuite)   | Multi-cloud security auditing tool            |  📄  |
-| [Prowler](https://github.com/prowler-cloud/prowler)         | AWS & Azure security assessment               |  📄  |
-| [Pacu](https://github.com/RhinoSecurityLabs/pacu)               | AWS exploitation framework                    |  📄  |
+| Tool                                                       | Description                                   | Docs |
+| :--------------------------------------------------------- | :-------------------------------------------- | :--: |
+| [ScoutSuite](https://github.com/nccgroup/ScoutSuite)       | Multi-cloud security auditing tool            |  📄  |
+| [Prowler](https://github.com/prowler-cloud/prowler)        | AWS & Azure security assessment               |  📄  |
+| [Pacu](https://github.com/RhinoSecurityLabs/pacu)          | AWS exploitation framework                    |  📄  |
 | [CloudSploit](https://github.com/aquasecurity/cloudsploit) | Cloud security configuration monitoring       |  📄  |
 | [Trivy](https://github.com/aquasecurity/trivy)             | Comprehensive security scanner for containers |  📄  |
 | [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Kubernetes penetration testing tool           |  📄  |
 | [Checkov](https://github.com/bridgecrewio/checkov)         | Static analysis for IaC security              |  📄  |
-| [CloudMapper](https://github.com/duo-labs/cloudmapper) | AWS environment visualization & auditing      |  📄  |
-| [Falco](https://github.com/falcosecurity/falco)             | Cloud-native runtime security                 |  📄  |
-| [Steampipe](https://github.com/turbot/steampipe)     | Universal cloud API query interface           |  📄  |
+| [CloudMapper](https://github.com/duo-labs/cloudmapper)     | AWS environment visualization & auditing      |  📄  |
+| [Falco](https://github.com/falcosecurity/falco)            | Cloud-native runtime security                 |  📄  |
+| [Steampipe](https://github.com/turbot/steampipe)           | Universal cloud API query interface           |  📄  |
 
 ---
 
@@ -259,18 +255,18 @@ Tools for AWS/Azure/GCP security auditing, misconfiguration detection, container
 
 Tools for static analysis, dynamic analysis, sandboxing, unpacking, and threat intelligence.
 
-| Tool                                                 | Description                                   | Docs |
-| :--------------------------------------------------- | :-------------------------------------------- | :--: |
-| [Cuckoo Sandbox](https://github.com/cuckoosandbox/cuckoo)   | Automated malware analysis system             |  📄  |
-| [YARA](https://github.com/VirusTotal/yara)               | Pattern matching for malware researchers      |  📄  |
-| [PE-bear](https://github.com/hasherezade/pe-bear)         | Portable Executable reversing tool            |  📄  |
-| [Detect It Easy](https://github.com/horsicq/Detect-It-Easy)      | Packer/compiler/linker detection              |  📄  |
-| [FLOSS](https://github.com/mandiant/flare-floss)             | FireEye Labs obfuscated string solver         |  📄  |
-| [Remnux](https://github.com/REMnux/remnux-cli)           | Linux toolkit for reverse-engineering malware |  📄  |
+| Tool                                                                 | Description                                   | Docs |
+| :------------------------------------------------------------------- | :-------------------------------------------- | :--: |
+| [Cuckoo Sandbox](https://github.com/cuckoosandbox/cuckoo)            | Automated malware analysis system             |  📄  |
+| [YARA](https://github.com/VirusTotal/yara)                           | Pattern matching for malware researchers      |  📄  |
+| [PE-bear](https://github.com/hasherezade/pe-bear)                    | Portable Executable reversing tool            |  📄  |
+| [Detect It Easy](https://github.com/horsicq/Detect-It-Easy)          | Packer/compiler/linker detection              |  📄  |
+| [FLOSS](https://github.com/mandiant/flare-floss)                     | FireEye Labs obfuscated string solver         |  📄  |
+| [Remnux](https://github.com/REMnux/remnux-cli)                       | Linux toolkit for reverse-engineering malware |  📄  |
 | [Process Monitor](https://github.com/Sysinternals/ProcMon-for-Linux) | Advanced Windows system monitoring            |  📄  |
-| [Pestudio](https://github.com/nicehash/pestudio)       | Static malware initial assessment             |  📄  |
-| [Any.Run](https://any.run/)          | Interactive online malware sandbox            |  📄  |
-| [Strings](https://github.com/glmcdona/strings2)         | Extract printable strings from binaries       |  📄  |
+| [Pestudio](https://github.com/nicehash/pestudio)                     | Static malware initial assessment             |  📄  |
+| [Any.Run](https://any.run/)                                          | Interactive online malware sandbox            |  📄  |
+| [Strings](https://github.com/glmcdona/strings2)                      | Extract printable strings from binaries       |  📄  |
 
 ---
 
@@ -278,18 +274,18 @@ Tools for static analysis, dynamic analysis, sandboxing, unpacking, and threat i
 
 > _Essential utilities that don't fit one category but are indispensable in every toolkit._
 
-| Tool                                                                | Description                                        | Docs |
-| :------------------------------------------------------------------ | :------------------------------------------------- | :--: |
-| [CyberChef](https://github.com/gchq/CyberChef)                       | The cyber swiss army knife (data ops)              |  📄  |
-| [John the Ripper](https://github.com/openwall/john)                      | Password cracker                                   |  📄  |
-| [Hydra](https://github.com/vanhauser-thc/thc-hydra)                               | Network logon brute-force tool                     |  📄  |
-| [Hashcat](https://github.com/hashcat/hashcat)                           | Advanced GPU-based password recovery               |  📄  |
-| [Impacket](https://github.com/fortra/impacket)                         | Collection of Python classes for network protocols |  📄  |
-| [SecLists](https://github.com/danielmiessler/SecLists)                         | Security tester's companion wordlists              |  📄  |
+| Tool                                                                        | Description                                        | Docs |
+| :-------------------------------------------------------------------------- | :------------------------------------------------- | :--: |
+| [CyberChef](https://github.com/gchq/CyberChef)                              | The cyber swiss army knife (data ops)              |  📄  |
+| [John the Ripper](https://github.com/openwall/john)                         | Password cracker                                   |  📄  |
+| [Hydra](https://github.com/vanhauser-thc/thc-hydra)                         | Network logon brute-force tool                     |  📄  |
+| [Hashcat](https://github.com/hashcat/hashcat)                               | Advanced GPU-based password recovery               |  📄  |
+| [Impacket](https://github.com/fortra/impacket)                              | Collection of Python classes for network protocols |  📄  |
+| [SecLists](https://github.com/danielmiessler/SecLists)                      | Security tester's companion wordlists              |  📄  |
 | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | Useful payloads & bypass techniques                |  📄  |
-| [Proxychains](https://github.com/haad/proxychains)                   | Redirect connections through proxy servers         |  📄  |
-| [Tor](https://github.com/torproject/tor)                                   | Anonymous communication network                    |  📄  |
-| [SearchSploit](https://github.com/offensive-security/exploitdb)                 | CLI search for Exploit-DB                          |  📄  |
+| [Proxychains](https://github.com/haad/proxychains)                          | Redirect connections through proxy servers         |  📄  |
+| [Tor](https://github.com/torproject/tor)                                    | Anonymous communication network                    |  📄  |
+| [SearchSploit](https://github.com/offensive-security/exploitdb)             | CLI search for Exploit-DB                          |  📄  |
 
 ---
 
